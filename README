@@ -1,0 +1,26 @@
+Trabalho de Robôtica
+
+=================================================================
+
+Como usar:
+
+
+?- consult(trabRobotica).
+
+=> Carrega o programa
+
+?- server(8080).
+
+=> inicializa o servidor.
+
+?- dCinematica(0, 35, 70, X, Y, Z, 1, 1).
+
+?- dCinematica(0, 0, -5, X, Y, Z, 1, 1).
+
+=> Cinematica direta.
+
+?- iCinematica(0, 1, 1.5, 1, 1, T1, T2, T3).
+
+?- iCinematica(0.0001, 1, 1.5, 1, 1, T1, T2, T3).
+
+=> Cinematica inversa
