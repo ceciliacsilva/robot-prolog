@@ -1,17 +1,17 @@
-Trabalho de Robôtica
+Robot
 
 =================================================================
 
 Como usar:
 
 
-?- consult(trabRobotica).
+?- consult("roboticaComDH.pl").
 
 => Carrega o programa
 
 ?- server(8080).
 
-=> inicializa o servidor.
+=> inicializa o servidor. (Usar browser, http://localhost:8080/)
 
 ?- dCinematica(0, 35, 70, X, Y, Z, 1, 1).
 
